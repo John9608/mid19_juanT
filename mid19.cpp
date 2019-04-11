@@ -89,6 +89,7 @@ int main(int argc, char *argv[])
         printf("     --------  --------  ---------- \n");
 #endif
 #ifdef UNIT_TEST
+        printf("Default tolerance is 0.01 if tolerance isn't given\n");
         printf("     x         y         length      Actual\n");
         printf("     --------  --------  ----------  ---------\n");
 #endif
